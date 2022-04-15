@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Lenovo"
+        android:id="@+id/lenovo_lp"/>
+    <item android:title="Acer"
+        android:id="@+id/acer_lp"/>
+    <item android:title="HP"
+        android:id="@+id/hp_lp"/>
+    <item android:title="Asus"
+        android:id="@+id/asus_lp"/>
+</menu>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageUser"
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/user_icon"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"/>
+
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/imageUser"
+        android:layout_toRightOf="@id/imageUser"
+        android:text="Arman Omarov"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/teal"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textName"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imageUser"
+        android:layout_marginLeft="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageStar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_baseline_stars_24" />
+
+        <TextView
+            android:id="@+id/textStarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/imageStar"
+            android:text="200 point"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageStar"
+            app:srcCompat="@drawable/ic_baseline_menu_book_24" />
+
+        <TextView
+            android:id="@+id/textBookText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textStarText"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="6dp"
+            android:layout_toRightOf="@id/imageBook"
+            android:text="15 bet"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/textStarText"
+            app:srcCompat="@drawable/ic_baseline_grid_on_24" />
+
+        <TextView
+            android:id="@+id/textGridText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@id/imageGrid"
+            android:text="95 kitap"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageGrid"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@id/textBookText"
+            app:srcCompat="@drawable/ic_baseline_access_time_24" />
+
+        <TextView
+            android:id="@+id/textTimeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textGridText"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/imageTime"
+            android:text="TextView"
+            android:textColor="#000 "
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</RelativeLayout>

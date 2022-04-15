@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate our Aplication"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
++
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/rb_excelent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="excelent"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="good"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_nice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nice"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_poor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="poor"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kai sport turin unatasin"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/cb_football"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Footbal"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"/>
+    <CheckBox
+        android:id="@+id/cb_volleyball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volleyball"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"/>
+    <CheckBox
+        android:id="@+id/cb_tennis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tennis"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"/>
+    <CheckBox
+        android:id="@+id/cb_basketball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basketball"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Button
+        android:id="@+id/btnJberu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Send"
+        android:layout_margin="40dp"/>
+
+</LinearLayout>

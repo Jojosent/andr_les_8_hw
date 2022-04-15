@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_zapis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:text="0"
+        android:textColor="#002AFF"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tv_san"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_zapis"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:text="0"
+        android:textColor="#002AFF"
+        android:textSize="60sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_san"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="bottom">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnC"
+                style="@style/sinvol"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btnDel"
+                style="@style/sinvol"
+                android:text="Del" />
+
+            <Button
+                android:id="@+id/btnTen"
+                style="@style/sinvol"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/btnPlusMinus"
+                style="@style/sinvol"
+                android:text="+/-" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/number"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/number"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/number"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btnBolu"
+                style="@style/sinvol"
+                android:text="/" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/number"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/number"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/number"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btnMinus"
+                style="@style/sinvol"
+                android:text="-" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn7"
+                style="@style/number"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btn8"
+                style="@style/number"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btn9"
+                style="@style/number"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnKobeity"
+                style="@style/sinvol"
+                android:text="x" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnNukte"
+                style="@style/number"
+                android:text="." />
+
+            <Button
+                android:id="@+id/btn0"
+                style="@style/number"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/btnPracent"
+                style="@style/sinvol"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/btnPlus"
+                style="@style/sinvol"
+                android:text="+" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
